@@ -115,7 +115,8 @@ body.page-template-page-fullsingle-me {
   background-size: cover; }
   body.page-template-page-fullsingle-me p {
     margin-bottom: 28px;
-    color: #999999; }
+    color: #e0e0e0;
+    }
     @media (max-width: 800px) {
       body.page-template-page-fullsingle-me p {
         font-size: 32px;
@@ -164,7 +165,9 @@ body.page-template-page-fullsingle-me {
               align-self: center; } }
   .logo img {
     max-width: 165px;
-    height: auto; }
+    height: auto;
+    visibility: hidden;
+    }
 
 .bio {
   -webkit-box-flex: 1;
@@ -188,9 +191,10 @@ body.page-template-page-fullsingle-me {
     .bio {
       max-width: none; } }
   .bio a {
-    color: #CCCCCC;
+    color: #fee61a;
     -webkit-transition: 1s;
-    transition: 1s; }
+    transition: 1s;
+    }
     .bio a:hover {
       color: #FFFFFF;
       -webkit-transition: 0.1s;
@@ -199,17 +203,19 @@ body.page-template-page-fullsingle-me {
 .network {
   -webkit-box-flex: 1;
   -webkit-flex: 1 1 auto;
-          flex: 1 1 auto;
+  flex: 1 1 auto;
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   -webkit-animation: fadein 6s;
-          animation: fadein 6s;
-  margin-top: auto; }
+  animation: fadein 6s;
+  margin-top: auto;
+  visibility: hidden;
+  }
   .network ul {
     -webkit-animation: fadein 6s;
             animation: fadein 6s;
