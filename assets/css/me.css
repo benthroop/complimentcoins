@@ -26,7 +26,8 @@ time, mark, audio, video {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline; }
+  vertical-align: baseline;
+  }
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -84,7 +85,8 @@ a:hover {
   text-decoration: none;
   border: none;
   border-style: none;
-  box-shadow: none; }
+  box-shadow: none;
+  }
 
 /* -- Content -- */
 @-webkit-keyframes fadein {
@@ -110,24 +112,18 @@ body.page-template-page-fullsingle-me {
   line-height: 60px;
   letter-spacing: -0.5px;
   color: #999999;
-  
   background-image: url("../../images/background.jpg");
-  
   background-position: center center;
-  background-size: cover; }
+  background-size: cover;
+  }
 
   @media (max-width: 500px) {
     body.page-template-page-fullsingle-me {
-      background-image: none;
-    }
-  }
-
-
-  
+      background-image: url("../../images/background_mobile.jpg"); } }
 
   body.page-template-page-fullsingle-me p {
     margin-bottom: 28px;
-    color: #e0e0e0;
+    color: #5e5959;
     }
     @media (max-width: 800px) {
       body.page-template-page-fullsingle-me p {
@@ -135,23 +131,25 @@ body.page-template-page-fullsingle-me {
         line-height: 40px; } }
 
 .fs-me {
-  padding: 10vh 10vw;
+  padding: 25vh 10vw;
   overflow: hidden;
   position: absolute;
-  z-index: 1000; }
+  z-index: 1000;
+  }
   @media (max-width: 500px) {
     .fs-me {
       padding: 5vh 5vw;
       text-align: center; } }
   .fs-me .me-content {
-    height: 80vh;
+    height: 60vh;
     display: -webkit-box;
     display: -webkit-flex;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
-            flex-direction: column; }
+    flex-direction: column;
+    }
     @media (max-width: 500px) {
       .fs-me .me-content {
         height: 90vh; } }
@@ -159,56 +157,57 @@ body.page-template-page-fullsingle-me {
 .logo {
   -webkit-box-flex: 1;
   -webkit-flex: 1 1 auto;
-          flex: 1 1 auto;
+  flex: 1 1 auto;
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   -webkit-align-self: left;
-          align-self: left;
+  align-self: left;
   -webkit-animation: fadein 2s;
-          animation: fadein 2s; }
+  animation: fadein 2s;
+  }
   @media (max-width: 500px) {
     .logo {
       -webkit-align-self: center;
               align-self: center; } }
   .logo img {
-    max-width: 165px;
-    height: auto;
-    visibility: hidden;
+    max-width: 50%;
+    /* FONT-WEIGHT: 500; */
     }
 
 .bio {
   -webkit-box-flex: 1;
   -webkit-flex: 1 1 auto;
-          flex: 1 1 auto;
+  flex: 1 1 auto;
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
-          justify-content: center;
+  justify-content: center;
   -webkit-animation: fadein 4s;
-          animation: fadein 4s;
+  animation: fadein 4s;
   letter-spacing: -1px;
-  max-width: 66%; }
+  max-width: 100%;
+  }
   @media (max-width: 800px) {
     .bio {
       max-width: none; } }
   .bio a {
-    color: #fe1a98;
+    color: #76a455;
     -webkit-transition: 1s;
     transition: 1s;
     }
     .bio a:hover {
-      color: #FFFFFF;
+      color: #46d910;
       -webkit-transition: 0.1s;
       transition: 0.1s; }
 
